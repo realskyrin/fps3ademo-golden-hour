@@ -10,6 +10,12 @@
 
 需要支持 WebGL 2 的桌面浏览器。初次加载会生成场景、烘焙光照并预编译着色器，请等待加载完成。
 
+## 游戏截图
+
+![GOLDEN HOUR 酒店露台瞄准战斗](docs/screenshots/golden-hour-combat.png)
+
+![GOLDEN HOUR 泳池露台换弹](docs/screenshots/golden-hour-reload.png)
+
 ## 本地运行
 
 Node.js `^20.19.0` 或 `>=22.12.0`，支持 WebGL 2 的桌面浏览器。
