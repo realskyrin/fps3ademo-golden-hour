@@ -94,6 +94,7 @@ var ws0 = [
     [
       ["SCOREBOARD", ["TAB"]],
       ["PAUSE / BACK", ["ESC"]],
+      ["PAUSE / RESUME", ["P"]],
       ["MENU NAVIGATE", ["\u2191", "\u2193", "\u2190", "\u2192"]],
       ["MENU SELECT", ["ENTER"]],
       ["SWITCH TAB", ["Q", "E"]],
@@ -487,7 +488,7 @@ var MenuController = class {
       ${this._legend([
         [["\u2191", "\u2193"], "NAVIGATE"],
         [["ENTER"], "SELECT"],
-        [["ESC"], "RESUME"],
+        [["ESC", "/", "P"], "RESUME"],
       ])}`,
     ).addEventListener("click", (e) => {
       let s = e.target.closest("[data-act]");
@@ -1727,6 +1728,11 @@ var MenuController = class {
       return;
     let e = t.code,
       s = this.page;
+    if (e === "KeyP" && s === "pause") {
+      t.preventDefault();
+      if (!t.repeat) this.back();
+      return;
+    }
     if (e === "Escape") {
       if (performance.now() - this.shownAt < 350) return;
       (t.preventDefault(), this.back());

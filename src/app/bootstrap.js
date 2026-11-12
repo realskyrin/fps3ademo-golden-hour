@@ -514,6 +514,14 @@ async function startGame() {
         gameState.state === "paused" && !input.locked && input.lock();
       }, f0 + 500));
   }
+  function pauseGame() {
+    if (gameState.state !== "playing") return;
+    gameState.state = "paused";
+    gameState.pausedAt = performance.now();
+    hud.show("pause");
+    audio.slideStop();
+    match.k9.pause();
+  }
   function z() {
     ((gameState.state = "menu"),
       (gameState.timeScale = 1),
@@ -537,14 +545,23 @@ async function startGame() {
     f0
       ? gameState.state === "paused" &&
         ((gameState.state = "playing"), hud.show(null))
-      : gameState.state === "playing" &&
-        !Y7 &&
-        ((gameState.state = "paused"),
-        (gameState.pausedAt = performance.now()),
-        hud.show("pause"),
-        audio.slideStop(),
-        match.k9.pause());
+      : !Y7 && pauseGame();
   }),
+    addEventListener("keydown", (event) => {
+      if (
+        event.code !== "KeyP" ||
+        event.repeat ||
+        event.ctrlKey ||
+        event.altKey ||
+        event.metaKey ||
+        event.defaultPrevented ||
+        gameState.state !== "playing"
+      )
+        return;
+      event.preventDefault();
+      pauseGame();
+      input.unlock();
+    }),
     canvas.addEventListener("click", () => {
       gameState.state === "playing" && !input.locked && !Y7 && input.lock();
     }),
