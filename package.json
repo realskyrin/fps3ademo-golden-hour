@@ -1,0 +1,29 @@
+{
+  "name": "golden-hour-local",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local editable restoration of GOLDEN HOUR — Solstice Hotel.",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-source.mjs && node scripts/verify-archive.mjs && node --test tests/*.test.mjs",
+    "verify:archive": "node scripts/verify-archive.mjs",
+    "verify:restoration": "node scripts/verify-restoration.mjs",
+    "verify:refactor": "node scripts/verify-refactor.mjs --report",
+    "test:pages": "node scripts/create-regression-pages.mjs",
+    "format": "prettier --write \"src/**/*.{js,css}\" vite.config.js scripts/*.mjs scripts/lib/*.mjs tests/*.mjs"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "devDependencies": {
+    "@babel/generator": "7.29.13",
+    "@babel/parser": "7.29.13",
+    "@babel/traverse": "7.29.13",
+    "prettier": "3.10.0",
+    "vite": "8.3.8"
+  }
+}

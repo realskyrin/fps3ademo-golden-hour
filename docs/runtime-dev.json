@@ -1,0 +1,628 @@
+{
+  "date": "2026-11-12",
+  "url": "http://127.0.0.1:5173/",
+  "checks": [
+    {
+      "step": "menu",
+      "data": {
+        "ready": true,
+        "stats": {
+          "state": "menu",
+          "fps": 27,
+          "calls": 972,
+          "tris": 6756666,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "idle",
+          "scores": [
+            0,
+            0
+          ],
+          "pos": [
+            0,
+            0,
+            0
+          ],
+          "hp": 100,
+          "props": 101
+        },
+        "three": "180",
+        "arsenal": {
+          "cur": 0,
+          "state": "draw",
+          "slots": [
+            {
+              "reserve": 150
+            },
+            {
+              "reserve": 75
+            }
+          ],
+          "shots": 0
+        },
+        "resources": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/styles.css",
+          "http://127.0.0.1:5173/src/main.js",
+          "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "http://127.0.0.1:5173/src/game.js"
+        ]
+      }
+    },
+    {
+      "step": "settings",
+      "visible": true
+    },
+    {
+      "step": "gunsmith",
+      "visible": true
+    },
+    {
+      "step": "deploy",
+      "data": {
+        "state": "playing",
+        "stats": {
+          "state": "playing",
+          "fps": 21,
+          "calls": 1456,
+          "tris": 8564768,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "live",
+          "scores": [
+            0,
+            0
+          ],
+          "pos": [
+            -19.85,
+            0,
+            15.45
+          ],
+          "hp": 100,
+          "props": 102
+        },
+        "match": "live",
+        "locked": false,
+        "slots": [
+          {
+            "id": "ar",
+            "ammo": 30,
+            "reserve": 150
+          },
+          {
+            "id": "pistol",
+            "ammo": 15,
+            "reserve": 75
+          }
+        ],
+        "audioDebug": {},
+        "audioErrors": []
+      }
+    },
+    {
+      "step": "movement",
+      "data": {
+        "ready": true,
+        "stats": {
+          "state": "playing",
+          "fps": 18,
+          "calls": 1486,
+          "tris": 8542604,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "live",
+          "scores": [
+            0,
+            1
+          ],
+          "pos": [
+            -18.42,
+            0,
+            15.44
+          ],
+          "hp": 100,
+          "props": 103
+        },
+        "three": "180",
+        "arsenal": {
+          "cur": 0,
+          "state": "ready",
+          "slots": [
+            {
+              "reserve": 150
+            },
+            {
+              "reserve": 75
+            }
+          ],
+          "shots": 0
+        },
+        "resources": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/styles.css",
+          "http://127.0.0.1:5173/src/main.js",
+          "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "http://127.0.0.1:5173/src/game.js"
+        ]
+      }
+    },
+    {
+      "step": "before-fire",
+      "data": {
+        "ready": true,
+        "stats": {
+          "state": "playing",
+          "fps": 22,
+          "calls": 1481,
+          "tris": 8456486,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "live",
+          "scores": [
+            5,
+            7
+          ],
+          "pos": [
+            -24.75,
+            0,
+            -16.59
+          ],
+          "hp": 100,
+          "props": 105
+        },
+        "three": "180",
+        "arsenal": {
+          "cur": 0,
+          "state": "ready",
+          "slots": [
+            {
+              "id": "ar",
+              "ammo": 30,
+              "reserve": 150
+            },
+            {
+              "id": "pistol",
+              "ammo": 15,
+              "reserve": 75
+            }
+          ],
+          "shots": 0
+        },
+        "yaw": -1.2,
+        "pitch": 0,
+        "audio": "running",
+        "audioErrors": [],
+        "resources": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/styles.css",
+          "http://127.0.0.1:5173/src/main.js",
+          "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "http://127.0.0.1:5173/src/game.js"
+        ]
+      }
+    },
+    {
+      "step": "fire-and-look",
+      "data": {
+        "ready": true,
+        "stats": {
+          "state": "playing",
+          "fps": 28,
+          "calls": 810,
+          "tris": 7297124,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "live",
+          "scores": [
+            5,
+            7
+          ],
+          "pos": [
+            -24.75,
+            0,
+            -16.59
+          ],
+          "hp": 100,
+          "props": 105
+        },
+        "three": "180",
+        "arsenal": {
+          "cur": 0,
+          "state": "ready",
+          "slots": [
+            {
+              "id": "ar",
+              "ammo": 26,
+              "reserve": 150
+            },
+            {
+              "id": "pistol",
+              "ammo": 15,
+              "reserve": 75
+            }
+          ],
+          "shots": 0
+        },
+        "yaw": 1.3084010307186733,
+        "pitch": 0.0073456015885834825,
+        "audio": "running",
+        "audioErrors": [],
+        "resources": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/styles.css",
+          "http://127.0.0.1:5173/src/main.js",
+          "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "http://127.0.0.1:5173/src/game.js"
+        ]
+      }
+    },
+    {
+      "step": "reload-start",
+      "data": {
+        "ready": true,
+        "stats": {
+          "state": "playing",
+          "fps": 28,
+          "calls": 810,
+          "tris": 7295612,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "live",
+          "scores": [
+            5,
+            7
+          ],
+          "pos": [
+            -24.75,
+            0,
+            -16.59
+          ],
+          "hp": 100,
+          "props": 105
+        },
+        "three": "180",
+        "arsenal": {
+          "cur": 0,
+          "state": "reload",
+          "slots": [
+            {
+              "id": "ar",
+              "ammo": 26,
+              "reserve": 150
+            },
+            {
+              "id": "pistol",
+              "ammo": 15,
+              "reserve": 75
+            }
+          ],
+          "shots": 0
+        },
+        "yaw": 1.308857631185834,
+        "pitch": 0.00171721002908145,
+        "audio": "running",
+        "audioErrors": [],
+        "resources": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/styles.css",
+          "http://127.0.0.1:5173/src/main.js",
+          "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "http://127.0.0.1:5173/src/game.js"
+        ]
+      }
+    },
+    {
+      "step": "reload-complete",
+      "data": {
+        "ready": true,
+        "stats": {
+          "state": "playing",
+          "fps": 22,
+          "calls": 1602,
+          "tris": 8846874,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "live",
+          "scores": [
+            17,
+            15
+          ],
+          "pos": [
+            -19.77,
+            0,
+            15.59
+          ],
+          "hp": 100,
+          "props": 106
+        },
+        "three": "180",
+        "arsenal": {
+          "cur": 0,
+          "state": "ready",
+          "slots": [
+            {
+              "id": "ar",
+              "ammo": 30,
+              "reserve": 150
+            },
+            {
+              "id": "pistol",
+              "ammo": 15,
+              "reserve": 75
+            }
+          ],
+          "shots": 0
+        },
+        "yaw": -1.57,
+        "pitch": 0,
+        "audio": "running",
+        "audioErrors": [],
+        "resources": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/styles.css",
+          "http://127.0.0.1:5173/src/main.js",
+          "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "http://127.0.0.1:5173/src/game.js"
+        ]
+      }
+    },
+    {
+      "step": "pause-handler",
+      "method": "original pointer-lock change callback",
+      "data": {
+        "ready": true,
+        "stats": {
+          "state": "paused",
+          "fps": 22,
+          "calls": 1549,
+          "tris": 8700484,
+          "cols": 863,
+          "panes": 124,
+          "nodes": 119,
+          "islands": [],
+          "links": 282,
+          "match": "live",
+          "scores": [
+            17,
+            15
+          ],
+          "pos": [
+            -19.77,
+            0,
+            15.59
+          ],
+          "hp": 100,
+          "props": 106
+        },
+        "three": "180",
+        "arsenal": {
+          "cur": 0,
+          "state": "ready",
+          "slots": [
+            {
+              "id": "ar",
+              "ammo": 30,
+              "reserve": 150
+            },
+            {
+              "id": "pistol",
+              "ammo": 15,
+              "reserve": 75
+            }
+          ],
+          "shots": 0
+        },
+        "yaw": -1.57,
+        "pitch": 0,
+        "audio": "running",
+        "audioErrors": [],
+        "resources": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/styles.css",
+          "http://127.0.0.1:5173/src/main.js",
+          "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "http://127.0.0.1:5173/src/game.js"
+        ]
+      }
+    },
+    {
+      "step": "weapon-cycle",
+      "method": "original debug key input",
+      "data": {
+        "before": {
+          "arsenalState": "ready",
+          "hp": 100,
+          "slots": [
+            {
+              "ammo": 30,
+              "id": "ar",
+              "reserve": 150
+            },
+            {
+              "ammo": 15,
+              "id": "pistol",
+              "reserve": 75
+            }
+          ],
+          "state": "playing"
+        },
+        "completed": {
+          "arsenalState": "ready",
+          "hp": 100,
+          "slots": [
+            {
+              "ammo": 30,
+              "id": "ar",
+              "reserve": 146
+            },
+            {
+              "ammo": 15,
+              "id": "pistol",
+              "reserve": 75
+            }
+          ],
+          "state": "playing"
+        },
+        "fired": {
+          "arsenalState": "ready",
+          "hp": 100,
+          "slots": [
+            {
+              "ammo": 26,
+              "id": "ar",
+              "reserve": 150
+            },
+            {
+              "ammo": 15,
+              "id": "pistol",
+              "reserve": 75
+            }
+          ],
+          "state": "playing"
+        },
+        "reloading": {
+          "arsenalState": "reload",
+          "hp": 100,
+          "slots": [
+            {
+              "ammo": 26,
+              "id": "ar",
+              "reserve": 150
+            },
+            {
+              "ammo": 15,
+              "id": "pistol",
+              "reserve": 75
+            }
+          ],
+          "state": "playing"
+        }
+      }
+    }
+  ],
+  "screenshots": [
+    "local-menu.jpg"
+  ],
+  "exceptions": [
+    {
+      "sequence": 142,
+      "source": {
+        "tabId": 2
+      },
+      "method": "Runtime.exceptionThrown",
+      "params": {
+        "exceptionDetails": {
+          "columnNumber": 0,
+          "exception": {
+            "className": "DOMException",
+            "description": "WrongDocumentError: The root document of this element is not valid for pointer lock.",
+            "objectId": "-7305933552029971710.11.1",
+            "preview": {
+              "description": "WrongDocumentError: The root document of this element is not valid for pointer lock.",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "code",
+                  "type": "number",
+                  "value": "4"
+                },
+                {
+                  "name": "name",
+                  "type": "string",
+                  "value": "WrongDocumentError"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "The root document of this element is not valid for pointer lock."
+                }
+              ],
+              "subtype": "error",
+              "type": "object"
+            },
+            "subtype": "error",
+            "type": "object"
+          },
+          "exceptionId": 1,
+          "executionContextId": 11,
+          "lineNumber": 0,
+          "scriptId": "1",
+          "text": "Uncaught (in promise)",
+          "url": "http://127.0.0.1:5173/"
+        },
+        "timestamp": 1794467000482.819
+      }
+    },
+    {
+      "sequence": 178,
+      "source": {
+        "tabId": 2
+      },
+      "method": "Runtime.exceptionThrown",
+      "params": {
+        "exceptionDetails": {
+          "columnNumber": 0,
+          "exception": {
+            "className": "DOMException",
+            "description": "UnknownError: If you see this error we have a bug. Please report this bug to chromium.",
+            "objectId": "-7305933552029971710.11.4",
+            "preview": {
+              "description": "UnknownError: If you see this error we have a bug. Please report this bug to chromium.",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "code",
+                  "type": "number",
+                  "value": "0"
+                },
+                {
+                  "name": "name",
+                  "type": "string",
+                  "value": "UnknownError"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "If you see this error we have a bug. Please report this bug to chromium."
+                }
+              ],
+              "subtype": "error",
+              "type": "object"
+            },
+            "subtype": "error",
+            "type": "object"
+          },
+          "exceptionId": 3,
+          "executionContextId": 11,
+          "lineNumber": 0,
+          "scriptId": "1",
+          "text": "Uncaught (in promise)",
+          "url": "http://127.0.0.1:5173/"
+        },
+        "timestamp": 1794467110792.266
+      }
+    }
+  ],
+  "note": "Pointer Lock unavailable in IAB. Movement used native W key; aim/fire and pause/resume used original debug input and pointer-lock callbacks. One earlier diagnostic-only TypeError called audio._debug as a function; it is an object. No game-source exceptions after the HTML whitespace correction."
+}

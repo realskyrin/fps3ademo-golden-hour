@@ -1,0 +1,570 @@
+{
+  "sections": [
+    [
+      0,
+      "vendor/three-r180.js"
+    ],
+    [
+      1139,
+      "vendor/postprocessing.js"
+    ],
+    [
+      1165,
+      "vendor/geometry-utils.js"
+    ],
+    [
+      1169,
+      "core/math.js"
+    ],
+    [
+      1189,
+      "render/lighting-volume.js"
+    ],
+    [
+      1201,
+      "render/renderer.js"
+    ],
+    [
+      1229,
+      "scene/sky.js"
+    ],
+    [
+      1234,
+      "render/effects/noise.js"
+    ],
+    [
+      1238,
+      "render/effects/atlas.js"
+    ],
+    [
+      1247,
+      "render/effects/particles.js"
+    ],
+    [
+      1257,
+      "render/effects/decals.js"
+    ],
+    [
+      1273,
+      "render/effects/shafts.js"
+    ],
+    [
+      1279,
+      "render/effects/system.js"
+    ],
+    [
+      1302,
+      "render/reflections.js"
+    ],
+    [
+      1312,
+      "scene/materials.js"
+    ],
+    [
+      1402,
+      "scene/geometry.js"
+    ],
+    [
+      1459,
+      "scene/props/registry.js"
+    ],
+    [
+      1460,
+      "scene/props/furniture.js"
+    ],
+    [
+      1461,
+      "scene/props/decorative.js"
+    ],
+    [
+      1473,
+      "scene/props/lamps.js"
+    ],
+    [
+      1486,
+      "scene/props/plants.js"
+    ],
+    [
+      1517,
+      "scene/props/lobby.js"
+    ],
+    [
+      1540,
+      "scene/props/upholstery.js"
+    ],
+    [
+      1551,
+      "scene/props/service.js"
+    ],
+    [
+      1561,
+      "scene/props/index.js"
+    ],
+    [
+      1562,
+      "physics/world.js"
+    ],
+    [
+      1567,
+      "physics/glass.js"
+    ],
+    [
+      1576,
+      "physics/props.js"
+    ],
+    [
+      1597,
+      "scene/hotel.js"
+    ],
+    [
+      1603,
+      "scene/dress/base.js"
+    ],
+    [
+      1616,
+      "scene/dress/lobby.js"
+    ],
+    [
+      1619,
+      "scene/dress/west-wing.js"
+    ],
+    [
+      1620,
+      "scene/dress/east-wing.js"
+    ],
+    [
+      1623,
+      "scene/dress/details.js"
+    ],
+    [
+      1632,
+      "scene/dress/index.js"
+    ],
+    [
+      1633,
+      "scene/architecture.js"
+    ],
+    [
+      1634,
+      "ai/navigation.js"
+    ],
+    [
+      1636,
+      "scene/lighting.js"
+    ],
+    [
+      1653,
+      "core/input.js"
+    ],
+    [
+      1655,
+      "core/settings.js"
+    ],
+    [
+      1666,
+      "audio/synthesis.js"
+    ],
+    [
+      1738,
+      "audio/system.js"
+    ],
+    [
+      1740,
+      "player/controller.js"
+    ],
+    [
+      1756,
+      "weapons/definitions.js"
+    ],
+    [
+      1757,
+      "weapons/combat.js"
+    ],
+    [
+      1771,
+      "weapons/loadout.js"
+    ],
+    [
+      1802,
+      "weapons/recoil.js"
+    ],
+    [
+      1820,
+      "weapons/weight.js"
+    ],
+    [
+      1824,
+      "weapons/arsenal.js"
+    ],
+    [
+      1832,
+      "weapons/optic.js"
+    ],
+    [
+      1838,
+      "weapons/muzzle-flash.js"
+    ],
+    [
+      1854,
+      "weapons/viewmodel.js"
+    ],
+    [
+      1867,
+      "weapons/models/legacy.js"
+    ],
+    [
+      1939,
+      "player/hands/mesh.js"
+    ],
+    [
+      1990,
+      "player/rig.js"
+    ],
+    [
+      2302,
+      "weapons/models/geometry.js"
+    ],
+    [
+      2354,
+      "weapons/models/attachments.js"
+    ],
+    [
+      2438,
+      "weapons/models/camos.js"
+    ],
+    [
+      2499,
+      "weapons/models/shared.js"
+    ],
+    [
+      2520,
+      "weapons/models/carbine.js"
+    ],
+    [
+      2745,
+      "weapons/models/smg.js"
+    ],
+    [
+      2844,
+      "weapons/models/pistol.js"
+    ],
+    [
+      2967,
+      "weapons/models/shotgun.js"
+    ],
+    [
+      3017,
+      "weapons/models/index.js"
+    ],
+    [
+      3021,
+      "player/operator-mesh.js"
+    ],
+    [
+      3045,
+      "player/operator-rig.js"
+    ],
+    [
+      3129,
+      "ai/bot.js"
+    ],
+    [
+      3140,
+      "ai/k9/rig.js"
+    ],
+    [
+      3164,
+      "ai/k9/mesh.js"
+    ],
+    [
+      3243,
+      "ai/k9/locomotion.js"
+    ],
+    [
+      3307,
+      "ai/k9/animation.js"
+    ],
+    [
+      3398,
+      "ai/k9/system.js"
+    ],
+    [
+      3422,
+      "ai/match.js"
+    ],
+    [
+      3429,
+      "ui/icons.js"
+    ],
+    [
+      3460,
+      "ui/studio-environment.js"
+    ],
+    [
+      3462,
+      "ui/preferences.js"
+    ],
+    [
+      3468,
+      "ui/dom.js"
+    ],
+    [
+      3474,
+      "ui/weapon-studio.js"
+    ],
+    [
+      3489,
+      "ui/minimap.js"
+    ],
+    [
+      3495,
+      "ui/camo-preview.js"
+    ],
+    [
+      3500,
+      "ui/menus.js"
+    ],
+    [
+      3512,
+      "ui/k9-hud.js"
+    ],
+    [
+      3521,
+      "ui/hud.js"
+    ],
+    [
+      3530,
+      "player/first-person-body.js"
+    ],
+    [
+      3557,
+      "app/bootstrap.js"
+    ]
+  ],
+  "moves": {
+    "1577": "physics/glass.js",
+    "1578": "physics/glass.js",
+    "1990": "player/hands/mesh.js",
+    "1991": "player/hands/mesh.js",
+    "3307": "ai/k9/locomotion.js",
+    "3308": "ai/k9/locomotion.js"
+  },
+  "aliases": {
+    "Ct": "THREE",
+    "JU": "defineExports",
+    "QU": "defineProperty",
+    "Vt": "TAU",
+    "jn": "DEG_TO_RAD",
+    "Zt": "clamp",
+    "ns": "saturate",
+    "Ht": "lerp",
+    "Fo": "smoothstep",
+    "Ee": "damp",
+    "Fm": "dampAngle",
+    "E1": "angleDelta",
+    "Re": "createRandom",
+    "at": "randomRange",
+    "we": "createCanvas",
+    "_n": "createNoise",
+    "_L": "prepareGeometry",
+    "HM": "LightingVolume",
+    "BM": "GameRenderer",
+    "Ii": "SUN_DIRECTION",
+    "PL": "createSky",
+    "QM": "PlanarReflections",
+    "$M": "EffectsSystem",
+    "lD": "createMaterials",
+    "PD": "createPropLibrary",
+    "mD": "createPropRegistry",
+    "gD": "registerFurniture",
+    "yD": "registerDecorativeProps",
+    "wD": "registerLamps",
+    "TD": "registerPlants",
+    "_D": "registerLobbyProps",
+    "RD": "registerUpholstery",
+    "CD": "registerServiceProps",
+    "FD": "createHotel",
+    "ND": "dressHotelBase",
+    "j9": "dressLobby",
+    "BD": "dressWestWing",
+    "UD": "dressEastWing",
+    "WD": "dressHotelDetails",
+    "qD": "dressHotel",
+    "KD": "createArchitecture",
+    "ZD": "bakeLighting",
+    "Mw": "CollisionWorld",
+    "Ew": "GlassSystem",
+    "_w": "PropPhysics",
+    "Cw": "InputController",
+    "Ri": "KEY_BINDINGS",
+    "QD": "SETTINGS_KEY",
+    "Ib": "DEFAULT_SETTINGS",
+    "Ag": "DIFFICULTIES",
+    "_s": "settings",
+    "Pw": "saveSettings",
+    "kg": "horizontalFov",
+    "eZ": "createAudio",
+    "fo": "audio",
+    "Ow": "PlayerController",
+    "_1": "PLAYER_STANCES",
+    "Ya": "WEAPON_DEFINITIONS",
+    "Uw": "CombatSystem",
+    "R1": "ATTACHMENT_SLOTS",
+    "iR": "ATTACHMENT_LABELS",
+    "Lg": "ATTACHMENTS",
+    "vu": "WEAPON_ATTACHMENTS",
+    "yr": "CAMOS",
+    "Ol": "WEAPON_IDS",
+    "Gw": "PRIMARY_WEAPONS",
+    "Zi": "getBuild",
+    "Ww": "saveBuild",
+    "Dg": "resolveWeaponDefinition",
+    "aR": "weaponStats",
+    "mi": "profile",
+    "zg": "rankProgress",
+    "s5": "camoProgress",
+    "yI": "recordWeaponKill",
+    "vI": "finishMatchProgress",
+    "Gb": "WeaponRecoil",
+    "Kw": "WeaponWeight",
+    "Xw": "Arsenal",
+    "Yw": "OpticPortal",
+    "$w": "MuzzleFlash",
+    "Qw": "ViewModel",
+    "WI": "buildLegacyGun",
+    "Z2": "buildGrenade",
+    "Ky": "buildGun",
+    "Nk": "createGrenade",
+    "ak": "buildCarbine",
+    "vk": "buildSMG",
+    "GT": "buildPistol",
+    "Ok": "buildShotgun",
+    "oC": "OperatorRig",
+    "n7": "createOperatorRig",
+    "i7": "BotController",
+    "XD": "buildNavigation",
+    "$9": "NavigationGraph",
+    "M7": "K9Locomotion",
+    "R7": "K9System",
+    "AC": "K9Unit",
+    "A7": "MatchController",
+    "Ih": "TEAM_NAMES",
+    "F7": "WeaponStudio",
+    "O7": "Minimap",
+    "N7": "MenuController",
+    "B7": "K9HUD",
+    "U7": "GameHUD",
+    "X7": "FirstPersonBody",
+    "ce": "elementById",
+    "td": "createElement",
+    "z2": "escapeHTML",
+    "vs": "icon",
+    "VU": "SETTING_PANELS",
+    "gv": "FIELD_NOTES",
+    "Je": "gameState",
+    "As0": "startGame",
+    "q1": "yieldToBrowser"
+  },
+  "scopedAliases": {
+    "startGame": {
+      "o": "canvas",
+      "t": "hud",
+      "e": "callbacks",
+      "s": "bootTimings",
+      "n": "gfx",
+      "i": "scene",
+      "a": "camera",
+      "r": "renderer",
+      "l": "input",
+      "c": "materials",
+      "h": "propLibrary",
+      "f": "world",
+      "u": "fx",
+      "d": "glass",
+      "m": "combat",
+      "p": "physics",
+      "x": "sky",
+      "g": "hotel",
+      "b": "match",
+      "v": "dressContext",
+      "y": "reflections",
+      "w": "navigation",
+      "T": "gameTime",
+      "S": "player",
+      "E": "viewModel",
+      "_": "grenadePrototype",
+      "R": "cloneGrenade",
+      "C": "firstPersonBody",
+      "L": "context",
+      "A": "arsenal"
+    },
+    "GameRenderer": {
+      "t": "canvas"
+    },
+    "PlayerController": {
+      "t": "context"
+    },
+    "Arsenal": {
+      "t": "context"
+    },
+    "CombatSystem": {
+      "t": "context"
+    },
+    "GameHUD": {
+      "t": "callbacks"
+    },
+    "MenuController": {
+      "t": "hud",
+      "e": "callbacks"
+    },
+    "MatchController": {
+      "t": "context"
+    },
+    "BotController": {
+      "t": "context",
+      "e": "team",
+      "s": "name",
+      "n": "weapon"
+    },
+    "InputController": {
+      "t": "canvas"
+    },
+    "K9System": {
+      "t": "context",
+      "e": "match"
+    },
+    "K9Unit": {
+      "t": "system",
+      "e": "team"
+    },
+    "PropPhysics": {
+      "t": "scene",
+      "e": "world",
+      "s": "hooks"
+    },
+    "GlassSystem": {
+      "t": "scene",
+      "e": "world",
+      "s": "hooks"
+    },
+    "ViewModel": {
+      "t": "context"
+    },
+    "FirstPersonBody": {
+      "t": "context"
+    },
+    "EffectsSystem": {
+      "t": "scene"
+    },
+    "createHotel": {
+      "o": "context"
+    },
+    "dressHotelBase": {
+      "o": "context",
+      "t": "hotel"
+    },
+    "createPropLibrary": {
+      "o": "materials"
+    }
+  }
+}

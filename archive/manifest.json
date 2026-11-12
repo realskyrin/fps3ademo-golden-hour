@@ -1,0 +1,28 @@
+{
+  "title": "GOLDEN HOUR — Solstice Hotel",
+  "sourceUrl": "https://claude.ai/artifact/6N9gzgYJDa925a1tVxps2f",
+  "frameId": "2b71aae7-f567-45cd-9392-4374412a0670",
+  "publishedVersion": "1794413451-9695",
+  "downloadBaseUrl": "https://2b71aae7-f567-45cd-9392-4374412a0670.frame.claudeusercontent.com/_f/1794413451-9695/",
+  "savedDate": "2026-11-12",
+  "files": [
+    {
+      "path": "dist/game.js",
+      "size": 2804090,
+      "contentType": "text/javascript",
+      "sha256": "d0c07719d57a1abd72d24de675fbc600ab3816611e8f8dd8f53b236f74812a07"
+    },
+    {
+      "path": "index.html",
+      "size": 90632,
+      "contentType": "text/html",
+      "sha256": "dce9b7eb522fde9f86f93525f6f04601d58ef5e4903ed4568b609b5981b2ce2c"
+    }
+  ],
+  "recoveryNotes": [
+    "The public deployment exposes index.html and dist/game.js only; unbundled source files and source maps are not supplied.",
+    "Removed only the 40960-byte Claude frame runtime injection from the HTML. Both recovered files match the published size and SHA-256.",
+    "The editable game script is the published JavaScript formatted without changing game logic or its bundled Three.js engine.",
+    "Both original style blocks are extracted in order to src/styles.css. The inline loader is replaced by the local Vite entry. No external runtime assets were found."
+  ]
+}

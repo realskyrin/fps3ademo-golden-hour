@@ -1,0 +1,24 @@
+{
+  "result": "identical",
+  "counts": {
+    "geometries": 237,
+    "materials": 194,
+    "nodes": 1459
+  },
+  "sceneHashes": {
+    "nodes": "019ae47f17ba69fec85c0bae980abf1cfd463d760cd8cf87bc641c15301b49b5",
+    "geometries": "b9d745cdb232a21cb79686891c8826646aea31864007a5cf0d4f846151679fcc",
+    "materials": "c47af747b6fc7b30a0e05bede7267295a30c0d0fca1080fdc5afdab5da7d5260"
+  },
+  "sceneFrames": 13,
+  "gameplayFrames": 174,
+  "checkedScenarios": [
+    "deployed",
+    "moved",
+    "fired",
+    "reloading",
+    "reloaded",
+    "swapped"
+  ],
+  "errors": []
+}

@@ -1,0 +1,346 @@
+{
+  "originalStatements": 3570,
+  "modules": [
+    {
+      "file": "vendor/three-r180.js",
+      "statements": 1139
+    },
+    {
+      "file": "vendor/postprocessing.js",
+      "statements": 26
+    },
+    {
+      "file": "vendor/geometry-utils.js",
+      "statements": 4
+    },
+    {
+      "file": "core/math.js",
+      "statements": 20
+    },
+    {
+      "file": "render/lighting-volume.js",
+      "statements": 12
+    },
+    {
+      "file": "render/renderer.js",
+      "statements": 28
+    },
+    {
+      "file": "scene/sky.js",
+      "statements": 5
+    },
+    {
+      "file": "render/effects/noise.js",
+      "statements": 4
+    },
+    {
+      "file": "render/effects/atlas.js",
+      "statements": 9
+    },
+    {
+      "file": "render/effects/particles.js",
+      "statements": 10
+    },
+    {
+      "file": "render/effects/decals.js",
+      "statements": 16
+    },
+    {
+      "file": "render/effects/shafts.js",
+      "statements": 6
+    },
+    {
+      "file": "render/effects/system.js",
+      "statements": 23
+    },
+    {
+      "file": "render/reflections.js",
+      "statements": 10
+    },
+    {
+      "file": "scene/materials.js",
+      "statements": 90
+    },
+    {
+      "file": "scene/geometry.js",
+      "statements": 57
+    },
+    {
+      "file": "scene/props/registry.js",
+      "statements": 1
+    },
+    {
+      "file": "scene/props/furniture.js",
+      "statements": 1
+    },
+    {
+      "file": "scene/props/decorative.js",
+      "statements": 12
+    },
+    {
+      "file": "scene/props/lamps.js",
+      "statements": 13
+    },
+    {
+      "file": "scene/props/plants.js",
+      "statements": 31
+    },
+    {
+      "file": "scene/props/lobby.js",
+      "statements": 23
+    },
+    {
+      "file": "scene/props/upholstery.js",
+      "statements": 11
+    },
+    {
+      "file": "scene/props/service.js",
+      "statements": 10
+    },
+    {
+      "file": "scene/props/index.js",
+      "statements": 1
+    },
+    {
+      "file": "physics/world.js",
+      "statements": 5
+    },
+    {
+      "file": "physics/glass.js",
+      "statements": 11
+    },
+    {
+      "file": "physics/props.js",
+      "statements": 19
+    },
+    {
+      "file": "scene/hotel.js",
+      "statements": 6
+    },
+    {
+      "file": "scene/dress/base.js",
+      "statements": 13
+    },
+    {
+      "file": "scene/dress/lobby.js",
+      "statements": 3
+    },
+    {
+      "file": "scene/dress/west-wing.js",
+      "statements": 1
+    },
+    {
+      "file": "scene/dress/east-wing.js",
+      "statements": 3
+    },
+    {
+      "file": "scene/dress/details.js",
+      "statements": 9
+    },
+    {
+      "file": "scene/dress/index.js",
+      "statements": 1
+    },
+    {
+      "file": "scene/architecture.js",
+      "statements": 1
+    },
+    {
+      "file": "ai/navigation.js",
+      "statements": 2
+    },
+    {
+      "file": "scene/lighting.js",
+      "statements": 17
+    },
+    {
+      "file": "core/input.js",
+      "statements": 2
+    },
+    {
+      "file": "core/settings.js",
+      "statements": 11
+    },
+    {
+      "file": "audio/synthesis.js",
+      "statements": 72
+    },
+    {
+      "file": "audio/system.js",
+      "statements": 2
+    },
+    {
+      "file": "player/controller.js",
+      "statements": 16
+    },
+    {
+      "file": "weapons/definitions.js",
+      "statements": 1
+    },
+    {
+      "file": "weapons/combat.js",
+      "statements": 14
+    },
+    {
+      "file": "weapons/loadout.js",
+      "statements": 31
+    },
+    {
+      "file": "weapons/recoil.js",
+      "statements": 18
+    },
+    {
+      "file": "weapons/weight.js",
+      "statements": 4
+    },
+    {
+      "file": "weapons/arsenal.js",
+      "statements": 8
+    },
+    {
+      "file": "weapons/optic.js",
+      "statements": 6
+    },
+    {
+      "file": "weapons/muzzle-flash.js",
+      "statements": 16
+    },
+    {
+      "file": "weapons/viewmodel.js",
+      "statements": 13
+    },
+    {
+      "file": "weapons/models/legacy.js",
+      "statements": 72
+    },
+    {
+      "file": "player/hands/mesh.js",
+      "statements": 53
+    },
+    {
+      "file": "player/rig.js",
+      "statements": 310
+    },
+    {
+      "file": "weapons/models/geometry.js",
+      "statements": 52
+    },
+    {
+      "file": "weapons/models/attachments.js",
+      "statements": 84
+    },
+    {
+      "file": "weapons/models/camos.js",
+      "statements": 61
+    },
+    {
+      "file": "weapons/models/shared.js",
+      "statements": 21
+    },
+    {
+      "file": "weapons/models/carbine.js",
+      "statements": 225
+    },
+    {
+      "file": "weapons/models/smg.js",
+      "statements": 99
+    },
+    {
+      "file": "weapons/models/pistol.js",
+      "statements": 123
+    },
+    {
+      "file": "weapons/models/shotgun.js",
+      "statements": 50
+    },
+    {
+      "file": "weapons/models/index.js",
+      "statements": 4
+    },
+    {
+      "file": "player/operator-mesh.js",
+      "statements": 24
+    },
+    {
+      "file": "player/operator-rig.js",
+      "statements": 84
+    },
+    {
+      "file": "ai/bot.js",
+      "statements": 11
+    },
+    {
+      "file": "ai/k9/rig.js",
+      "statements": 24
+    },
+    {
+      "file": "ai/k9/mesh.js",
+      "statements": 79
+    },
+    {
+      "file": "ai/k9/locomotion.js",
+      "statements": 66
+    },
+    {
+      "file": "ai/k9/animation.js",
+      "statements": 89
+    },
+    {
+      "file": "ai/k9/system.js",
+      "statements": 24
+    },
+    {
+      "file": "ai/match.js",
+      "statements": 7
+    },
+    {
+      "file": "ui/icons.js",
+      "statements": 31
+    },
+    {
+      "file": "ui/studio-environment.js",
+      "statements": 2
+    },
+    {
+      "file": "ui/preferences.js",
+      "statements": 6
+    },
+    {
+      "file": "ui/dom.js",
+      "statements": 6
+    },
+    {
+      "file": "ui/weapon-studio.js",
+      "statements": 15
+    },
+    {
+      "file": "ui/minimap.js",
+      "statements": 6
+    },
+    {
+      "file": "ui/camo-preview.js",
+      "statements": 5
+    },
+    {
+      "file": "ui/menus.js",
+      "statements": 12
+    },
+    {
+      "file": "ui/k9-hud.js",
+      "statements": 9
+    },
+    {
+      "file": "ui/hud.js",
+      "statements": 9
+    },
+    {
+      "file": "player/first-person-body.js",
+      "statements": 27
+    },
+    {
+      "file": "app/bootstrap.js",
+      "statements": 13
+    }
+  ],
+  "result": "equivalent after module boundaries and scoped identifier renaming"
+}

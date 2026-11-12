@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-12",
+  "url": "http://127.0.0.1:4173/",
+  "state": {
+    "ready": true,
+    "stats": {
+      "state": "menu",
+      "fps": 26,
+      "calls": 911,
+      "tris": 6328736,
+      "cols": 863,
+      "panes": 124,
+      "nodes": 119,
+      "islands": [],
+      "links": 282,
+      "match": "idle",
+      "scores": [
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "hp": 100,
+      "props": 101
+    },
+    "three": "180",
+    "arsenal": {
+      "cur": 0,
+      "state": "draw",
+      "slots": [
+        {
+          "id": "ar",
+          "ammo": 30,
+          "reserve": 150
+        },
+        {
+          "id": "pistol",
+          "ammo": 15,
+          "reserve": 75
+        }
+      ],
+      "shots": 0
+    },
+    "yaw": 0,
+    "pitch": 0,
+    "audioErrors": [],
+    "resources": [
+      "http://127.0.0.1:4173/assets/index-Beej30Gk.js",
+      "http://127.0.0.1:4173/assets/index-BFrwdN1H.css",
+      "http://127.0.0.1:4173/favicon.ico"
+    ]
+  },
+  "exceptions": [],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:4173/assets/index-BFrwdN1H.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-Beej30Gk.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/favicon.ico",
+      "status": 404
+    }
+  ],
+  "failedRequests": [],
+  "screenshot": "production-menu.jpg",
+  "generatedImageResponses": 8
+}

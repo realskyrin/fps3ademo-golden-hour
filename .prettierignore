@@ -1,0 +1,8 @@
+# The published HUD accesses firstChild as an element. Added HTML whitespace
+# creates Text nodes, so preserve the original page's DOM layout.
+index.html
+archive/
+dist/
+node_modules/
+tests/original.html
+tests/current.html

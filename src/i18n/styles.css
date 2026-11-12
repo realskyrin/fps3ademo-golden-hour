@@ -1,0 +1,37 @@
+/* Hidden settings panels must not intercept the active menu's mouse input. */
+.page:not(.on) { pointer-events: none; }
+.page.on { pointer-events: auto; }
+
+html[lang="zh-CN"] body {
+  font-family: Bahnschrift, "DIN Alternate", "Barlow Condensed", "Arial Narrow", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+html[lang="zh-CN"] :is(.kicker, .mode, .nv, .legend, .sech, .topbar, .pc-k, .bind, .row label, .st-side, .gs-name, .gs-stats, .gs-nums, .fu-call, #banner, #hint, #death, #score) {
+  letter-spacing: .08em;
+}
+html[lang="zh-CN"] :is(.row label, .bind > span:first-child) { font-weight: 600; }
+html[lang="zh-CN"] .nv em { letter-spacing: .1em; }
+html[lang="zh-CN"] #pg-main .mode { letter-spacing: .18em; }
+html[lang="zh-CN"] #ltipp { line-height: 1.7; }
+html[lang="zh-CN"] .st-side { line-height: 1.65; }
+.gh-language-control {
+  display: grid;
+  grid-template-columns: 30rem 1fr;
+  gap: 1rem;
+  align-items: center;
+  min-height: 5.6rem;
+  padding: 1.1rem 1.6rem;
+  font-size: var(--f3);
+  letter-spacing: .08em;
+}
+.gh-language-control > div { display: flex; gap: .6rem; }
+.gh-language-control button {
+  padding: .7rem 1.8rem;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  color: rgba(255,255,255,.7);
+  font: inherit;
+  cursor: pointer;
+}
+.gh-language-control button.on { background: var(--or); color: #17100a; border-color: var(--or); }
+.gh-language-control button:focus-visible { outline: 2px solid var(--or2); outline-offset: 3px; }
+.page:not(.on) .gh-language-control { visibility: hidden; pointer-events: none; }

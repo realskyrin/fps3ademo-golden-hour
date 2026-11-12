@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><title>GOLDEN HOUR — Solstice Hotel</title>
+<link rel="stylesheet" href="./src/styles.css">
+</head><body>
+
+
+<canvas id="c"></canvas>
+
+<div id="hud" class="layer hidden">
+  <div id="k9-edge"><i class="l"></i><i class="r"></i><i class="t"></i><i class="b"></i></div><div id="k9-alarm"></div>
+  <div id="world"><div id="tags"></div><div id="nade"><img alt=""><span></span></div><div id="k9-own" class="k9m"><div class="mk"><u><i></i></u></div></div><div id="k9-foe" class="k9m"><div class="mk"><span>K9</span><u><i></i></u></div></div></div>
+  <div id="safe">
+    <div id="dmg"></div>
+    <div id="cross"><i class="t"></i><i class="b"></i><i class="l"></i><i class="r"></i><u></u><svg viewBox="-50 -50 100 100"><circle r="50"/></svg></div>
+    <div class="hm" id="hm-body"><i></i><i></i><i></i><i></i></div>
+    <div class="hm" id="hm-head"><i></i><i></i><i></i><i></i></div>
+    <div class="hm" id="hm-kill"><i></i><i></i><i></i><i></i><b></b></div>
+    <div id="cue"></div>
+    <div id="events"><div id="ev-add"></div><div id="ev-pts"></div><div id="ev-lines"></div><div id="ev-medals"></div></div>
+    <div id="center"><div id="intro"></div></div>
+    <div id="count"></div>
+    <div id="banner"></div>
+    <div id="death" class="hidden">
+      <div class="dk" id="dkick">ELIMINATED BY</div>
+      <div id="dcard"><div class="dl"><span id="demb"></span><div><div id="dname"></div><div class="dhp"><u><i id="dhpb"></i></u><span id="dhpn"></span></div></div></div><div class="dr"><span id="dwico"></span><div id="dwname"></div></div></div>
+      <div id="dresp">RESPAWN IN <b id="respawn">0.0</b><u><i id="respbar"></i></u></div>
+    </div>
+    <div id="hint"></div>
+    <div id="k9-threat"><div class="arw"><svg viewBox="0 0 30 24"><path fill="#ff4326" d="M15 0l13 12h-7.200L15 6.600 9.200 12H2z"/><path fill="#ff4326" opacity=".55" d="M15 11l13 12h-7.200L15 17.600 9.200 23H2z"/></svg></div><div class="bd"></div><b></b></div>
+    <div id="k9-prox"></div>
+    <div id="toast"></div>
+    <div id="mm"><div class="clip"><div id="mm-rot"><div id="mm-map"></div></div><div id="mm-cone"></div><div id="mm-me"></div></div><svg class="frame" viewBox="0 0 220 220" preserveAspectRatio="none"><path d="M.75 .75H204L219.25 16V219.25H16L.75 204Z"/></svg><div id="mm-n"><b>N</b></div><div id="mm-tapew"><div id="mm-tape"></div></div><div class="foot"><span id="mm-zone"></span><span id="mm-hdg"></span></div></div>
+    <div id="score">
+      <div class="tm a"><span class="nm">VANGUARD</span><span id="embA"></span><span class="n" id="sA">0</span><div class="bar"><i id="pA"></i></div></div>
+      <div class="mid"><div id="clock">8:00</div><div class="lim" id="slim">FIRST TO 40</div></div>
+      <div class="tm b"><span class="n" id="sB">0</span><span id="embB"></span><span class="nm">EMBER</span><div class="bar"><i id="pB"></i></div></div>
+    </div>
+    <div id="feed"></div>
+    <div id="vitals"><div id="stance"></div><div class="hp"><div class="hrow"><span id="hpico"></span><span id="hpn">100</span><span id="hpname">VANGUARD</span></div><div id="hbar"><i id="hghost"></i><i id="hfill"></i><i id="hedge"></i></div></div></div>
+    <div id="weapon">
+      <div class="wtop"><span id="wtags"></span><span id="wname"></span><span id="wmode"></span></div>
+      <div class="wmain"><img id="wsil" alt=""><div class="wammo"><span id="mag">30</span><span id="res">150</span></div></div>
+      <div id="wrule"><i id="wrel"></i></div>
+      <div class="wsub"><div class="w2"><kbd id="w2k">2</kbd><img id="w2sil" alt=""><span id="w2n"></span></div><div class="wfrag" id="wfrag"><kbd>G</kbd><img id="wfragi" alt=""><i></i><i></i></div></div>
+      <div id="fu" class="hidden">
+        <div id="fu-call"></div>
+        <div class="fu-tile"><i id="fu-glow"></i><svg class="fu-ring" viewBox="0 0 100 100"><circle class="trk" cx="50" cy="50" r="44"/><circle class="arc" id="fu-arc" cx="50" cy="50" r="44"/><circle class="tk" cx="50" cy="50" r="44"/></svg><span id="fu-ico"></span><i id="fu-flash"></i></div>
+        <div class="fu-foot"><div class="fu-chg"><kbd id="fu-key">B</kbd><span id="fu-pct">0%</span></div><div class="fu-act"><u><i id="fu-hp"></i></u><span id="fu-kills"></span></div></div>
+      </div>
+    </div>
+    <div id="board" class="hidden"></div>
+  </div>
+</div>
+
+<div id="ui" class="hidden" data-bg="menu"><div id="ui-scrim"></div></div>
+
+<div id="loading" class="screen">
+  <div class="in">
+    <div class="kicker">SOLSTICE HOTEL &nbsp;·&nbsp; SKY LOBBY &nbsp;·&nbsp; 47F</div>
+    <h1>GOLDEN<span>HOUR</span></h1>
+    <div id="lbar"><b></b></div>
+    <div class="lrow"><span id="ltxt">PREPARING</span><span id="lpct">0%</span></div>
+    <div id="ltip"><div class="tk">FIELD NOTES</div><p id="ltipp"></p></div>
+  </div>
+</div>
+
+<script type="module" src="./src/main.js"></script>
+
+</body></html>

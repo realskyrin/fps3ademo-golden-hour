@@ -1,0 +1,22 @@
+{
+  "dimensions": [
+    809,
+    864
+  ],
+  "meanAbsoluteRgbError": 0.0,
+  "maxChannelDifferences": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "identicalPixels": true
+}
